@@ -77,7 +77,6 @@ form.addEventListener('submit', function (e) {
       '';
 
   // Display Marker
-
   console.log(mapEvent);
   const { lat, lng } = mapEvent.latlng;
   L.marker([lat, lng])
